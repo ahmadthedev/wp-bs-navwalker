@@ -34,7 +34,7 @@ if ( in_array('menu-item-has-children', $item->classes) && $depth == 0 ) {
 ```
 
 ### JavaScript
-Add the active also when we click on the icon to the nearest `li`.
+Add the active class to the nearest `li` when we click on the icon.
 
 ```ruby
 jQuery(document).ready(function($){
@@ -46,4 +46,4 @@ jQuery(document).ready(function($){
 ```
 
 ### CSS
-In CSS add `display: block;` in 'li.active > ul'.
+In CSS add `display: block;` in `li.active > ul`.
